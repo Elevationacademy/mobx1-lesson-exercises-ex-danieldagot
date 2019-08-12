@@ -17,7 +17,6 @@ addItem = () => {
 render() {
   return (
     <div className="App">
-      < DevTools />
       <input onChange = {this.handleChange}/>
       <button onClick = {this.addItem}>Add</button>
     {
